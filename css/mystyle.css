@@ -1,0 +1,154 @@
+	* {
+        font-family: trebuchet ms;
+        overflow: auto;
+        }
+	a {
+	color: purple;
+	}
+        h1 a {
+        text-decoration: none;
+        color: white;
+        }
+        body {
+        background-color: rgba(215, 215, 215, 0.8)	
+        }
+        h1 {
+        background-color: purple;
+        color: white;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 15px;
+	margin:0;
+        }
+        h2 {
+        	color: purple;
+        }
+	h3 {
+	text-align: center;
+
+	}
+	#h3-00 {
+	font-style: italic;
+	color: purple;
+	}
+        hr {
+          border: 1px solid black;	
+        }
+        #div1 {
+        text-weight: bold;
+        text-align: center;
+        border-radius: 10px;
+        background-color: white;
+        }
+	#div1 img {
+	width: 700px;
+
+	}
+        #div2, #div3 {
+        text-align: center;
+        }
+        #div3 img {
+        	width: 400px;
+        }
+        #div3 a {
+        color: purple;
+        
+	}
+        #div-00 img {
+	width: 325px;
+
+	}
+	#div-01 {
+	margin-left: 50px;
+
+	}
+	#div-01 p {
+	text-align: center;
+	}
+	#div-01 h2 {
+	color: purple;
+	}
+        iframe {
+        	border: none;
+        }
+        ul {
+          border-radius: 10px;
+          background-color: white;
+	  list-style-type: none;
+        }
+        .sprite {
+        display: block;
+	margin: auto;
+        background: url('https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1098,format=auto/sites/default/files/styles/1200x800/public/d8/images/methode/2020/10/05/71caec42-03a9-11eb-88c7-25dcd0ae6080_image_hires_120331.jpg?itok=VtP0o9zf&v=1601870623') no-repeat 0 0;
+  
+        width: 300px;
+  
+        height: 350px;
+  
+        animation: varName 1s steps(4) infinite;
+  
+  	}
+  
+  	@keyframes varName{
+  
+    	from{background-position-x:-450px;}
+  
+    	to{background-position-x:-550px;}
+  
+  	}
+        .nav{
+   	border:1px solid purple;
+    	border-width:1px;
+       	border-radius: 10px;
+  	list-style:none;
+        margin-top:0;
+	margin-right: 0;
+    	padding:0;
+    	text-align:center;
+	}
+	.nav li{
+    	display:inline;
+	}
+	.nav a{
+    	display:inline-block;
+    	padding:10px;
+	}
+	.sprite-0 {
+	background: url('../images/image sprites.png') no-repeat -57px -16px;
+	width: 36px;
+	height: 37px;
+	}
+	.sprite-0:hover {
+	background: url('../images/image sprites.png') no-repeat -57px -56px;
+	width: 36px;
+	height: 37px;
+	}
+	.sprite-01 {
+	background: url('../images/image sprites.png') no-repeat -99px -16px;
+	width: 36px;
+	height: 37px;
+	}
+	.sprite-01:hover {
+	background: url('../images/image sprites.png') no-repeat -99px -56px;
+	width: 36px;
+	height: 37px;
+	}
+	.sprite-02 {
+	background: url('../images/image sprites.png') no-repeat -14px -16px;
+	width: 37px;
+	height: 37px;
+	}
+	.sprite-02:hover {
+	background: url('../images/image sprites.png') no-repeat -14px -56px;
+	width: 37px;
+	height: 37px;
+	}
+	section  {
+	text-align:center;
+	}
+	.sprite-0, .sprite-01, .sprite-02 {
+	display: inline-block;
+	}
+	#ul-001, #h2-001 {
+	text-align: center;
+	}
